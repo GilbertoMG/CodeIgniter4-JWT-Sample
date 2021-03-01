@@ -1,0 +1,180 @@
+CRITICAL - 2020-12-07 15:37:07 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/create')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/create')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 15:37:51 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/create')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/create')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 15:37:54 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/create')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/create')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 15:38:12 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/create')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/create')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 15:41:33 --> syntax error, unexpected 'use' (T_USE)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/create')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('auth/create')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 16:01:40 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-07 16:01:42 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-07 19:18:32 --> Undefined variable: request
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\e...', 15, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:22:45 --> Undefined property: stdClass::$password
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:24:50 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:27:27 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:28:26 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:30:01 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:30:13 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:31:05 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:31:12 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:31:35 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:37:02 --> Class 'App\Controllers\Services' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-07 19:39:49 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:39:55 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:42:24 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:55:18 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 19:55:28 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 20:02:14 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 21:04:09 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 21:04:22 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-07 21:14:04 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

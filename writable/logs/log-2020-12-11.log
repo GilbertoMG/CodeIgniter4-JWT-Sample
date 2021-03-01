@@ -1,0 +1,7 @@
+CRITICAL - 2020-12-11 23:17:44 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

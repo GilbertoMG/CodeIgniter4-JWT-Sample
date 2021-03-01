@@ -1,0 +1,340 @@
+CRITICAL - 2020-10-21 08:10:36 --> api/user/* filter must have a matching alias defined.
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(150): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('api/user/*')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 08:12:03 --> api/user/* filter must have a matching alias defined.
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(150): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('api/user/*')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 08:12:39 --> api/user/* filter must have a matching alias defined.
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(150): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('api/user/*')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 08:13:49 --> api/user/* filter must have a matching alias defined.
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(150): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('api/user/*')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 08:15:25 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:17:01 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:17:02 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:18:12 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:19:02 --> Declaration of App\Filters\Auth::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:19:58 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:21:38 --> Declaration of App\Filters\AuthFilter::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response) must be compatible with CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 08:22:27 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:26:18 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:26:19 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:28:48 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:30:05 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:30:07 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:31:15 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:31:16 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 19, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('api/user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 08:39:21 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 09:13:24 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 09:41:26 --> Class 'Firebase\JWT\JWT' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 09:47:45 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 23, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:25:56 --> Undefined property: App\Filters\AuthFilter::$response
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 21, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:26:44 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:27:56 --> Undefined property: App\Filters\AuthFilter::$response
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\API\ResponseTrait.php(398): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 398, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): App\Filters\AuthFilter->format(Array)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\API\ResponseTrait.php(166): App\Filters\AuthFilter->respond(Array, 404, '')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\API\ResponseTrait.php(278): App\Filters\AuthFilter->fail(Array, 404, NULL, '')
+#4 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): App\Filters\AuthFilter->failNotFound('User 13 cannot ...')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#7 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-10-21 12:28:24 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:28:58 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:29:39 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 25, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:30:13 --> Undefined property: App\Filters\AuthFilter::$response
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\API\ResponseTrait.php(398): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 398, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\API\ResponseTrait.php(134): App\Filters\AuthFilter->format(Array)
+#2 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): App\Filters\AuthFilter->respond(Array, 401)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:33:26 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:33:27 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:33:29 --> syntax error, unexpected ')'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:33:49 --> Undefined property: App\Filters\AuthFilter::$response
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 21, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:33:51 --> Undefined property: App\Filters\AuthFilter::$response
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 21, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:33:52 --> Undefined property: App\Filters\AuthFilter::$response
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 21, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:34:27 --> Declaration of App\Filters\AuthFilter::before(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = NULL) must be compatible with CodeIgniter\Filters\FilterInterface::before(CodeIgniter\HTTP\RequestInterface $request, $arguments = NULL)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-10-21 12:35:06 --> Non-static method CodeIgniter\HTTP\ResponseInterface::setStatusCode() cannot be called statically
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 12:35:07 --> Non-static method CodeIgniter\HTTP\ResponseInterface::setStatusCode() cannot be called statically
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 12:35:29 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:35:30 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:36:22 --> Non-static method CodeIgniter\HTTP\ResponseInterface::setStatusCode() cannot be called statically
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 12:36:23 --> Non-static method CodeIgniter\HTTP\ResponseInterface::setStatusCode() cannot be called statically
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-10-21 12:36:38 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:36:40 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-10-21 12:37:48 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\wamp64\\www\\e...', 21, Array)
+#1 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): json_decode(Array)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 12:37:49 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\wamp64\\www\\e...', 21, Array)
+#1 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(21): json_decode(Array)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-10-21 12:44:57 --> Array to string conversion
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\HTTP\Response.php(739): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\e...', 739, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\HTTP\Response.php(691): CodeIgniter\HTTP\Response->sendBody()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\HTTP\Response->send()
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:50:17 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 27, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:53:20 --> Undefined offset: 1
+#0 C:\wamp64\www\estudo-api\api2\app\Filters\AuthFilter.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\e...', 27, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-21 12:58:09 --> syntax error, unexpected 'return' (T_RETURN), expecting ';'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Filters\Filters.php(164): spl_autoload_call('App\\Filters\\Aut...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(382): CodeIgniter\Filters\Filters->run('user', 'before')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

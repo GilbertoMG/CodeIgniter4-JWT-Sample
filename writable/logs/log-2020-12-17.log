@@ -1,0 +1,238 @@
+CRITICAL - 2020-12-17 08:33:52 --> syntax error, unexpected '/', expecting end of file
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2020-12-17 08:41:53 --> Unable to connect to the database.
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(15): CodeIgniter\Model->findAll()
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 08:42:21 --> Unable to connect to the database.
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(15): CodeIgniter\Model->findAll()
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->index()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 09:34:02 --> Undefined variable: response
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Employee.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\e...', 12, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 09:59:37 --> Class 'App\Controllers\Services' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:01:22 --> syntax error, unexpected '/'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 10:04:58 --> Class 'App\Controllers\Services' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:05:18 --> Class 'App\Controllers\Services' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:14:39 --> Class 'App\Controllers\ResourceController' not found
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#7 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-17 10:15:27 --> get_class() expects parameter 1 to be object, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_class() exp...', 'C:\\wamp64\\www\\e...', 186, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(186): get_class('App\\Models\\Phot...')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(76): CodeIgniter\RESTful\ResourceController->setModel(NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(891): CodeIgniter\RESTful\ResourceController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-17 10:16:10 --> get_class() expects parameter 1 to be object, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_class() exp...', 'C:\\wamp64\\www\\e...', 186, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(186): get_class('App\\Models\\Phot...')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(76): CodeIgniter\RESTful\ResourceController->setModel(NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(891): CodeIgniter\RESTful\ResourceController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-17 10:17:36 --> get_class() expects parameter 1 to be object, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_class() exp...', 'C:\\wamp64\\www\\e...', 186, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(186): get_class('App\\Models\\Phot...')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(76): CodeIgniter\RESTful\ResourceController->setModel(NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(891): CodeIgniter\RESTful\ResourceController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-17 10:18:12 --> get_class() expects parameter 1 to be object, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_class() exp...', 'C:\\wamp64\\www\\e...', 186, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(186): get_class('App\\Models\\Empl...')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(76): CodeIgniter\RESTful\ResourceController->setModel(NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(891): CodeIgniter\RESTful\ResourceController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-17 10:19:06 --> Call to a member function orderBy() on string
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:19:36 --> Call to a member function findAll() on string
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:19:39 --> Call to a member function findAll() on string
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:20:30 --> Call to a member function findAll() on null
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 10:20:49 --> get_class() expects parameter 1 to be object, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'get_class() exp...', 'C:\\wamp64\\www\\e...', 186, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(186): get_class('App\\Models\\Empl...')
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\RESTful\ResourceController.php(76): CodeIgniter\RESTful\ResourceController->setModel(NULL)
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(891): CodeIgniter\RESTful\ResourceController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-17 10:36:18 --> Undefined variable: request
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Employee.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 11:16:41 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getServer
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Employee.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\e...', 24, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Employee->index()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employee))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 18:40:51 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 18:41:12 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 18:41:34 --> Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\wamp64\www\estudo-api\api2\app\Controllers\User.php on line 24 and exactly 2 expected
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\User.php(24): CodeIgniter\HTTP\Message->setHeader('Content-type: a...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 18:42:03 --> Too few arguments to function CodeIgniter\HTTP\Message::setHeader(), 1 passed in C:\wamp64\www\estudo-api\api2\app\Controllers\User.php on line 24 and exactly 2 expected
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\User.php(24): CodeIgniter\HTTP\Message->setHeader('Content-type: a...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 20:04:04 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 50, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 20:05:57 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 50, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 20:07:03 --> Trying to get property 'email' of non-object
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\Auth.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\e...', 50, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Auth->create()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 21:33:08 --> syntax error, unexpected ')', expecting ';'
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\wamp64\\www\\e...')
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-17 21:33:26 --> Call to undefined method App\Controllers\User::request()
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-17 23:06:23 --> Illegal string offset 'key'
+#0 C:\wamp64\www\estudo-api\api2\app\Controllers\User.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\e...', 13, Array)
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-17 23:07:04 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\User->index()
+#1 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\wamp64\www\estudo-api\api2\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\estudo-api\api2\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
