@@ -12,14 +12,10 @@ class AuthFilter implements FilterInterface
 
 	public function before(RequestInterface $request,$arguments = null)
 	{
-		
-		//die('caiu no filtro');
-				
+						
 		$key = API_KEY;
 		
-		$authHeader = $request->getServer('HTTP_AUTHORIZATION');
-		
-		//return Services::response()->setStatusCode(200)->setJSON(['messages'=>$request->getServer()]);
+		$authHeader = $request->getServer('HTTP_AUTHORIZATION');		
 		
 		if ($authHeader == null) {
 			
@@ -32,9 +28,6 @@ class AuthFilter implements FilterInterface
 		{
 			JWT::decode(trim($authHeader), $key, ['HS256']);
 			
-			//var_dump(JWT::decode($authHeader, $key, ['HS256']));
-			
-			//JWT::decode($token, $key, ['HS256']);
 		}
 		catch (\Exception $e)
 		{
