@@ -6,17 +6,22 @@ use App\Controllers\Base;
 class Clientes extends Base
 {
 
+    private $model;
+
+    public function __construct()
+    {
+        $this->model = model('App\Models\ClientesModel', false);
+    }
+
     public function index()
     {
-        $clienteModel = model('App\Models\ClientesModel', false);
-        $clientes = $clienteModel->findAll();
+        $clientes = $this->model->findAll();
         return $this->respond($clientes, 200);
     }
 
     public function edit($id)
     {
-        $clienteModel = model('App\Models\ClientesModel', false);
-        $cliente = $clienteModel->find($id);
+        $cliente = $this->model->find($id);
         return $this->respond([
             $cliente
         ], 200);
@@ -24,9 +29,7 @@ class Clientes extends Base
 
     public function delete($id)
     {
-        $clienteModel = model('App\Models\ClientesModel', false);
-
-        if ($clienteModel->delete($id)) {
+        if ($this->model->delete($id)) {
             return $this->respond([
                 'messages' => 'Registro excluido'
             ], 200);
@@ -35,10 +38,9 @@ class Clientes extends Base
 
     public function create()
     {
-        $clienteModel = model('App\Models\ClientesModel', false);
         $dados = $this->request->getJSON();
 
-        if ($clienteModel->save($dados)) {
+        if ($this->model->save($dados)) {
             return $this->respond([
                 $dados
             ], 201);
