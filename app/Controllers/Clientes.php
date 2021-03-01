@@ -15,8 +15,8 @@ class Clientes extends Base
 
     public function index()
     {
-        $clientes = $this->model->findAll();
-        return $this->respond($clientes, 200);
+        //$clientes = $this->model->findAll();
+        return $this->respond($this->model->findAll(), 200);
     }
 
     public function edit($id)
