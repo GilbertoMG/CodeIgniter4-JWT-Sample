@@ -13,6 +13,6 @@ CodeIgniter 4 JWT Exemplo Simples
 Checagem do token em \App\Filters\AuthFilter.php
 
 
-[GET] Controller Clientes listagem de clientes
+[GET] Controller Clientes para listagem de clientes
 
 Use resource routes em CI 4. Veja https://codeigniter.com/user_guide/incoming/restful.html?highlight=resource#resource-routes
