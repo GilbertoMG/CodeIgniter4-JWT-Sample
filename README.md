@@ -16,4 +16,6 @@ Enviar Header Authorization + token
 
 [GET] hostcwb.com.br/webservice/public/clientes para listagem de clientes
 
+[GET] hostcwb.com.br/webservice/public/produtos para listagem de produtos
+
 Use resource routes em CI 4. Veja https://codeigniter.com/user_guide/incoming/restful.html?highlight=resource#resource-routes
