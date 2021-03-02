@@ -12,11 +12,13 @@ class AuthFilter implements FilterInterface
 
 	public function before(RequestInterface $request,$arguments = null)
 	{
-						
+		
+		
 		$key = API_KEY;
 		
 		$authHeader = $request->getServer('HTTP_AUTHORIZATION');		
 		
+		//return Services::response()->setStatusCode(200)->setJSON(['messages'=>$request->getServer()]);
 		if ($authHeader == null) {
 			
 		    return Services::response()->setStatusCode(401)->setJSON(['messages'=>'token inexistente']);
