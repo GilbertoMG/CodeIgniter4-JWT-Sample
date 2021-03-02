@@ -18,7 +18,7 @@ class Auth extends Base
 
         // Chama o model da autenticação e retorna se válido ou não
 
-        if ($dados->email == 'gilbmg@gmail.com' && $dados->senha == '123') {
+        if ($dados->email == 'email@test.com' && $dados->senha == '123') {
 
             $key = API_KEY;
 
