@@ -39,6 +39,9 @@ defined('WEEK')   || define('WEEK', 604800);
 defined('MONTH')  || define('MONTH', 2592000);
 defined('YEAR')   || define('YEAR', 31536000);
 defined('DECADE') || define('DECADE', 315360000);
+/*
+| Definição da KEY da API
+*/
 define('API_KEY', 'xxxxrwerwexxd1fd2f13wer14w51f3we1fw35wexx');
 
 /*
