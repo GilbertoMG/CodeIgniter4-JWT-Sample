@@ -35,9 +35,10 @@ $routes->setAutoRoute(true);
 $routes->resource('users', ['controller' => 'User']);
 $routes->resource('auth', ['controller' => 'Auth']);
 
-// rotas protegidas
+// rotas protegidas // agrupadas ou não
 
 $routes->resource('clientes', ['controller' => 'Clientes','filter'=>'auth']);
+$routes->resource('produtos', ['controller' => 'Produtos','filter'=>'auth']);
 
 
 /**
