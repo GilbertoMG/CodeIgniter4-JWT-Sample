@@ -2,7 +2,7 @@
 
 CodeIgniter 4 JWT Exemplo Simples
 
-[POST] Controller Auth  para teste de login - [POST] json data 
+[POST] hostcwb.com.br/webservice/public/auth para teste de login - [POST] json data 
 
 {
 "email":"email@test.com",
