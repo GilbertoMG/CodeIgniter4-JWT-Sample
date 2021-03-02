@@ -2,7 +2,12 @@
 
 CodeIgniter 4 JWT Sample
 
-[POST] Controller Auth  for login user
+[POST] Controller Auth  for login user - [POST] json test data 
+
+{
+"email":"",
+"senha":""
+}
 
 [GET] Controller Clientes for cliente list
 
