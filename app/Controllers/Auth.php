@@ -32,7 +32,7 @@ class Auth extends Base
             $jwt = JWT::encode($payload, $key);
 
             return $this->respond([
-                'userName' => 'Gilberto',
+                'userName' => 'userName do Token',
                 'token' => $jwt
             ], 201);
         } else {
