@@ -4,6 +4,8 @@ CodeIgniter 4 JWT Exemplo Simples
 
 [POST] hostcwb.com.br/webservice/public/auth para teste de login - [POST] json data 
 
+Enviar Header Content-Type:application/json
+
 {
 "email":"email@test.com",
 "senha":"123"
@@ -12,7 +14,7 @@ CodeIgniter 4 JWT Exemplo Simples
 
 Checagem do token em \App\Filters\AuthFilter.php
 
-Enviar Header Authorization + token
+Enviar Header Authorization:token + Content-Type:application/json
 
 [GET] hostcwb.com.br/webservice/public/clientes para listagem de clientes
 
