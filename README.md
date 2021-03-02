@@ -1,6 +1,6 @@
-# CodeIgniter4-JWT-Sample
+# CodeIgniter4-JWT-Basic-Sample
 
-CodeIgniter 4 JWT Exemplo
+CodeIgniter 4 JWT Exemplo Simples
 
 [POST] Controller Auth  para teste de login - [POST] json data 
 
