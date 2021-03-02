@@ -4,14 +4,14 @@ CodeIgniter 4 JWT Exemplo
 
 [POST] Controller Auth  para teste de login - [POST] json data 
 
-
-Checagem do token em \APP\Filters\AuthFilter.php
-
-
 {
 "email":"email@test.com",
 "senha":"123"
 }
+
+
+Checagem do token em \APP\Filters\AuthFilter.php
+
 
 [GET] Controller Clientes listagem de clientes
 
