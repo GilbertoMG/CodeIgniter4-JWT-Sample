@@ -10,7 +10,7 @@ CodeIgniter 4 JWT Exemplo Simples
 }
 
 
-Checagem do token em \APP\Filters\AuthFilter.php
+Checagem do token em \App\Filters\AuthFilter.php
 
 
 [GET] Controller Clientes listagem de clientes
