@@ -33,7 +33,10 @@ Enviar Header Authorization:token + Content-Type:application/json
 
 Use resource routes em CI 4. Veja https://codeigniter.com/user_guide/incoming/restful.html?highlight=resource#resource-routes
 
+## Dados fake de https://www.generatedata.com/
+
 ![alt text](https://hostcwb.com.br/git-jwt/a1.jpg)
+![alt text](https://hostcwb.com.br/git-jwt/a2.jpg)
 ![alt text](https://hostcwb.com.br/git-jwt/a2.jpg)
 
 
