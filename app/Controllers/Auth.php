@@ -23,8 +23,8 @@ class Auth extends Base
             $key = API_KEY;
 
             $payload = [
-                'aud' => 'http://192.168.56.1/estudo-api/api2/public',
-                'iat' => time(),
+                'aud' => 'hostcwb.com.br', // audiencia
+                'iat' => time(), // quando foi gerado
                 'nbf' => strtotime('NOW'), // não válido antes de
                 'exp' => strtotime('+3 WEEK') // Não válido após
             ];
